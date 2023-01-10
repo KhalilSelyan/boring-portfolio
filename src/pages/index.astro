@@ -32,95 +32,87 @@ import "../styles/base.css";
   />
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZ"
-  />
 </head>
 
-<main class="bg-teal-900 h-screen"></main>
-<div class="flex items-center justify-center h-full">
-  <div
-    class="bg-white w-[22rem] h-[35rem] rounded-md p-2 shadow-lg shadow-emerald-400 flex flex-col items-center"
-  >
-    <span class="text-2xl font-bold mt-8">Hello, I'm Khalil!</span>
-    <!-- divider div -->
-    <div class="w-5/6 h-[0.0625rem] bg-gray-300 my-2"></div>
-    <div class="flex space-x-2 items-center">
-      <svg
-        onclick="window.open('https://github.com/khalilselyan')"
-        class="w-10 h-10 mt-2 cursor-pointer"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        ><path
-          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-        ></path></svg
-      >
-      <svg
-        onclick="window.open('https://www.linkedin.com/in/khalilselyan/')"
-        class="w-10 h-10 mt-2 cursor-pointer"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        ><path
-          d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-        ></path></svg
-      >
-      <!-- add onclick to send an email -->
-      <svg
-        onclick="window.open('mailto:khalil@leodrive.ai')"
-        width="40"
-        viewBox="0 0 30 30.000001"
-        height="40"
-        preserveAspectRatio="xMidYMid meet"
-        class="w-10 h-10 mt-2 cursor-pointer"
-        ><defs
-          ><clipPath
-            ><path
-              d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 "
-              clip-rule="nonzero"></path></clipPath
-          ></defs
-        ><g
+<main class="bg-teal-900 h-screen">
+  <div class="flex items-center justify-center h-full">
+    <div
+      class="bg-white w-[22rem] h-[35rem] rounded-md p-2 shadow-lg shadow-emerald-400 flex flex-col items-center"
+    >
+      <span class="text-2xl font-bold mt-8">Hello, I'm Khalil!</span>
+      <!-- divider div -->
+      <div class="w-5/6 h-[0.0625rem] bg-gray-300 my-2"></div>
+      <div class="flex space-x-2 items-center">
+        <svg
+          onclick="window.open('https://github.com/khalilselyan')"
+          class="w-10 h-10 mt-2 cursor-pointer"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
           ><path
-            fill="rgb(6.269836%, 5.879211%, 5.099487%)"
-            d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 "
-            fill-opacity="1"
-            fill-rule="nonzero"></path></g
-        ></svg
-      >
-    </div>
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+          ></path></svg
+        >
+        <svg
+          onclick="window.open('https://www.linkedin.com/in/khalilselyan/')"
+          class="w-10 h-10 mt-2 cursor-pointer"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          ><path
+            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+          ></path></svg
+        >
+        <!-- add onclick to send an email -->
+        <svg
+          onclick="window.open('mailto:khalil@leodrive.ai')"
+          width="40"
+          viewBox="0 0 30 30.000001"
+          height="40"
+          preserveAspectRatio="xMidYMid meet"
+          class="w-10 h-10 mt-2 cursor-pointer"
+          ><defs
+            ><clipPath
+              ><path
+                d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 "
+                clip-rule="nonzero"></path></clipPath
+            ></defs
+          ><g
+            ><path
+              fill="rgb(6.269836%, 5.879211%, 5.099487%)"
+              d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 "
+              fill-opacity="1"
+              fill-rule="nonzero"></path></g
+          ></svg
+        >
+      </div>
 
-    <div class="pt-8 self-start px-8 flex flex-col space-y-2">
-      <span>
-        FullStack developer at<a
-          href="https://leodrive.ai/"
-          class="text-blue-500 hover:text-blue-700"
-        >
-          Leo Drive.
-        </a>
-      </span>
-      <span>
-        Interned as a frontend developer at <a
-          href="https://westerops.com/"
-          class="text-blue-500 hover:text-blue-700"
-        >
-          WesterOPS.
-        </a>
-      </span>
-      <span>
-        I'm a self-taught developer who loves to build things. I'm currently
-        working on a few projects, one of them is an electron app that will act
-        as an HMI for an autonomous vehicle and 3D visualization tool for all
-        that the vehicle's sensors see.
-      </span>
+      <div class="pt-8 self-start px-8 flex flex-col space-y-2">
+        <span>
+          FullStack developer at<a
+            href="https://leodrive.ai/"
+            class="text-blue-500 hover:text-blue-700"
+          >
+            Leo Drive.
+          </a>
+        </span>
+        <span>
+          Interned as a frontend developer at <a
+            href="https://westerops.com/"
+            class="text-blue-500 hover:text-blue-700"
+          >
+            WesterOPS.
+          </a>
+        </span>
+        <span>
+          I'm a self-taught developer who loves to build things. I'm currently
+          working on a few projects, one of them is an electron app that will
+          act as an HMI for an autonomous vehicle and 3D visualization tool for
+          all that the vehicle's sensors see.
+        </span>
+      </div>
     </div>
   </div>
-</div>
+</main>
